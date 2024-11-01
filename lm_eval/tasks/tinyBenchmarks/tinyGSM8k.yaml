@@ -24,6 +24,7 @@ generation_kwargs:
     - "Question:"
     - "</s>"
     - "<|im_end|>"
+    - "[END]"
   do_sample: false
   temperature: 0.0
 repeats: 1
