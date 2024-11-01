@@ -29,7 +29,7 @@ This repository is a fork of the LM Evaluation Harness Suite with PLDR-LLM model
 
 - Pretrained PLDR-LLM models and tokenizers used in the research paper can be found at [https://huggingface.co/fromthesky](https://huggingface.co/fromthesky) .
 - Unzip the tokenizer model files. The extracted files are a tensorflow saved model folder, vocabulary (.txt, .vocab) and sentencepiece model (.model) files. We need to use the tensorflow saved model folder to load the tokenizer.
-- Use the .keras model file and the tokenizer tensorflow saved model folder to load and evaluate the model. *Note:* The model and the support module for LM evaluation harness are not optimized for fast inference, evaluation of benchmarks take a long time.
+- Use the .keras model file and the tokenizer tensorflow saved model folder to load and evaluate the model. *Note:* The model and the support module for LM evaluation harness are not optimized for fast inference, evaluations of benchmarks take a long time.
 
     ```python
     import lm_eval
