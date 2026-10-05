@@ -1,3 +1,13 @@
+## Repository status: archived research reference
+
+This repository is archived and read-only to preserve its role as a reference implementation for the associated research paper and subsequent papers and manuscripts that build on this work.
+
+Preserving the code and documentation provides a stable reference for examining the published methods, reproducing experiments, and comparing later developments with this implementation.
+
+No further updates are planned for this repository. Its contents remain publicly available for study and reuse under the existing license. Further development and adaptations can be carried out in separate forks.
+
+When using this implementation in research, please cite the associated paper and record the specific repository commit used.
+
 # Language Model Evaluation Harness Suite with PLDR-LLM support
 
 This repository is a fork of the LM Evaluation Harness Suite with PLDR-LLM model support pinned at version 0.4.3. This version was used to evaluate PLDR-LLM models on benchmark datasets for the research paper: [PLDR-LLM: Large Language Model From Power Law Decoder Representations](https://arxiv.org/abs/2410.16703).
